@@ -1,0 +1,41 @@
+.woocommerce { //body class
+    ul {
+        &.products {
+            li {
+                text-align: center;
+                &.product {
+                    border: 1px solid #ddd;
+                    a {
+                        .woocommerce-loop-product__title {
+                            color: $headings-color;
+                            transition: all 0.3s;
+                            font-family: $headings-font-family;
+                            font-size: 15px;
+                            font-weight: 700;
+                            &:hover {
+                                color: $brand-primary;
+                            }
+                        }
+                    }
+                    .price {
+                        color: $brand-primary;
+                        del {
+
+                        }
+                        ins {
+                            text-decoration: none;
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    span {
+        &.onsale {
+            background: $brand-primary;
+            padding: 0;
+        }
+    }
+}

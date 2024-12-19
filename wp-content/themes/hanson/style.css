@@ -1,0 +1,39 @@
+/*
+Theme Name: Hanson
+Theme URI: http://tfdemo.ithemeslab.com/wp/hanson/
+Author: iThemesLab
+Author URI: http://ithemeslab.com
+Description: Hanson is a fresh, clean & feature rich multipurpose WordPress theme. Highly recommended for any kind of agency / organizational website. hansonBiz comes with popular drag n drop page builder with front end editing, so no coding skill required. The layout looks beautiful at any size, be it a laptop screen, iPad, iPhone, Android Mobile or tablets.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hanson
+Tags: theme-options, post-formats, featured-images
+*/
+
+.gallery-caption,
+.bypostauthor {
+    display: block;
+}
+
+.tophead{padding:130px 0px!important; position:relative}
+.tophead h2{font-size:48px; color:#000; font-weight:700; margin:0px; padding:0px;}
+.tophead h2 strong{display:block; font-size:30px; font-weight:600; margin-bottom:20px; color:#000 }
+.tophead strong{font-size:30px; color:#0066ff; font-weight:600; }
+.tophead .elementor-button-info{background-color:#ebebeb!important; position:absolute!important; bottom: -142px !important; right: -11px !important;}
+.tophead .elementor-button-link.elementor-button.elementor-size-sm { background-color: transparent !important; color:#ff0000!important}
+
+.cat{background-color:transparent!important;display:inline-block;}
+.cat a{color:#272727; text-transform:uppercase!important; font-weight:600!important; margin:15px 0px!important; padding:0px 5px!important;}
+.cat a:hover{color:#0066ff}
+
+@media (min-width: 300px) and (max-width: 760px){
+	.tophead {
+    background-color: 
+    #ebebeb;
+    background-image: none !important; padding:100px 0px 40px 0px!important; text-align:center
+}
+.tophead h2 {
+    font-size: 38px;
+}
+}

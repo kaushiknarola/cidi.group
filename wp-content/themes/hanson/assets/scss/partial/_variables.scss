@@ -1,0 +1,75 @@
+/*colors*/
+$brand-primary                      : #1bbde8;
+$brand-secondary                    : #ff0;
+
+$headings-color                     : #333333;
+$subtitle-color                     : #808080;
+$text-color                         : #666;
+$divider-color                      : #c3c3c3;
+
+$white                              : #fff;
+$black                              : #000;
+
+$lightgrey                          : #ddd;
+
+$banner-bg                          : transparent;
+
+/*grid float point*/
+$screen-xs                           : 480px;
+$screen-sm                           : 768px;
+$screen-md                           : 992px;
+$screen-lg                           : 1200px;
+$screen-xs-max                       : ($screen-xs - 1);
+$screen-sm-max                       : ($screen-sm - 1);
+$screen-md-max                       : ($screen-md - 1);
+$screen-lg-max                       : ($screen-lg - 1);
+
+/*font-family*/
+$primary-font-family                : 'Montserrat', sans-serif;
+$secondary-font-family              : 'Lora', serif;
+$headings-font-family               : $primary-font-family;
+$text-font-family                   : 'Open Sans', sans-serif;
+$fontawesome                        : 'FontAwesome';
+
+/*font-size*/
+$global-body-font-size              : 14px;
+
+/*line-height*/
+$global-line-height                 : 22px;
+
+/*main-menu*/
+$navbar-link-color			        : #272727;
+$navbar-hover-color			        : $brand-primary;
+$navbar-hover-bg			        : transparent;
+$navbar-active-color		        : $brand-primary;
+$navbar-active-bg			        : transparent;
+
+$hover-line-color			        : $brand-primary;
+$active-line-color			        : $hover-line-color;
+
+$dropdown-wrap-color		        : $white;
+$dropdown-link-color		        : #333;
+
+$dropdown-hover-color		        : $brand-primary;
+$dropdown-hover-bg			        : transparent;
+
+$dropdown-active-color		        : $brand-primary;
+$dropdown-active-bg			        : $brand-primary;
+
+$navbar-toggle-bg			        : $brand-primary;
+$navbar-toggle-line-color	        : $black;
+
+/*blogposts*/
+$blog-title-color                   : $headings-color;
+$blog-title-link-color              : $blog-title-color;
+$blog-title-hover-color             : $brand-primary;
+/*widgets*/
+$sw-title-color                     : $headings-color;
+$sw-text-color                      : #676767;
+
+/*footer*/
+$footer-bg                          : #111;
+$fw-title-color                     : $white;
+$fw-text-color                      : #bbb;
+$fw-link-color                      : $fw-text-color;
+$fw-link-hover-color                : $brand-primary;

@@ -1,0 +1,343 @@
+/*
+Theme Name: Hanson Child Theme
+Theme URI: https://themeforest.net/item/hanson-multipurpose-wordpress-theme/20762871?ref=ithemeslab
+Description: Hanson is a fresh, clean & feature rich multipurpose WordPress theme. Highly recommended for any kind of agency/ organizational website. Hanson comes with popular drag n drop page builder, so no coding skill required. The layout looks beautiful at any size, be it a laptop screen, iPad, iPhone, Android Mobile or tablets.
+Author: iThemesLab
+Author URI: http://ithemeslab.com
+Template: hanson
+Version: 2.0
+*/
+
+.postid-3088 .product_title.entry-title{
+	/*display: none;*/
+	margin-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	border-bottom: 1px solid #000;
+}
+.postid-3088 .content-pad{
+	padding: 0 0 50px 0;
+}
+.gallery-caption,
+.bypostauthor{
+	display: block;
+}
+.tophead{
+	padding: 130px 0px !important;
+	position: relative;
+}
+.tophead h2{
+	font-size: 48px;
+	color: #000;
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px;
+}
+.tophead h2 strong{
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #000;
+}
+.tophead strong{
+	font-size: 30px;
+	color: #0066ff;
+	font-weight: 600;
+}
+.tophead .elementor-button-info{
+	background-color: #ebebeb !important;
+	position: absolute !important;
+	bottom: -142px !important;
+	right: -11px !important;
+}
+.tophead .elementor-button-link.elementor-button.elementor-size-sm{
+	background-color: transparent !important;
+	color: #ff0000 !important;
+}
+.cat{
+	background-color: transparent !important;
+	display: inline-block;
+}
+.cat a{
+	color: #272727;
+	text-transform: uppercase !important;
+	font-weight: 600 !important;
+	margin: 15px 0px !important;
+	padding: 0px 5px !important;
+}
+.cat a:hover{
+	color: #0066ff;
+}
+.woocommerce-orders-table__cell-order-actions a.woocommerce-button.button.view{
+	margin-right: 10px;
+}
+.label .label-tag{
+	color: #000;
+}
+.status_main_bg{
+	position: relative;
+	background-color: #bbb;
+	color: #fff;
+	height: 100%;
+}
+.status_color_bg{
+	background-color: #0166ff;
+	font-size: 12px;
+	display: flex;
+	height: 30px;
+	line-height: 30px;
+}
+.theme-table th{
+	color: #fff;
+	font-size: 13px;
+}
+.table-striped tr:nth-child(even){
+	background-color: #e7e7e7;
+}
+.table-striped tr{
+	border-bottom: none !important;
+}
+.borderless td{
+	border: none !important;
+	padding: 10px;
+}
+.border-none{
+	border: none !important;
+}
+.s-title{
+	font-weight: 600;
+}
+.s-data{
+	color: #0066ff;
+	font-weight: 600;
+	font-size: 14px;
+}
+.theme-bg{
+	background: #eaeaea;
+}
+.cap-title{
+	font-size: 18px;
+	font-weight: bold;
+	color: #444;
+}
+.theme-tabs{
+	border: none;	
+}
+.theme-tabs>li.active>a, .theme-tabs>li.active>a:focus, .theme-tabs>li.active>a:hover{
+	/*border: none;*/
+	background: #0066ff;
+	color: #fff;
+}
+.theme-tabs>li a{
+	border-radius: 0;
+	color: #0066ff;
+	padding: 6px 13px;
+}
+.theme-tabs>li a:hover{
+	background: #0066ff;
+	color: #fff;
+}
+.news_feed_list{
+	display: inline-flex;
+	align-items: center;
+	width: 47%;
+	margin: 10px;
+	margin-left: 0px;
+}
+.news_feed_list img{
+	width: 100px;
+	max-width: 100px;
+	border-radius: 5px;
+}
+.news_feed_list .news_feed_img{
+	margin-right: 15px;
+}
+.news_feed_list .news_feed_title a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #42527B;
+	letter-spacing: -0.2px;
+}
+table.td-center td ,  table.td-center th{
+	vertical-align: middle;
+}
+.postid-3088 #dvPrice .price{
+	float: unset;
+	width: 100%;
+}
+.postid-3088 br{
+	display: none;
+}
+.postid-3088 .value{
+	position: relative;
+}
+.postid-3088 .value select{
+	appearance: none;
+	outline: 0;
+	background: transparent;
+	background-image: none;
+	width: 100%;
+	height: 100%;
+	color: #0066ff;
+	font-weight: 600;
+	cursor: pointer;
+	border: 1px solid #cfe2ff;
+	border-radius: 4px;
+	margin-left: 10px;
+	padding: 8px !important;
+	width: 100% !important;
+} 
+.value select{
+	position: relative;
+	display: block;
+	width: 15em;
+	height: 2em;
+	line-height: 3;
+	overflow: hidden;
+	border-radius: .25em;
+	padding-bottom:10px;
+	border: 1px solid #cfe2ff;
+} 
+.postid-3088 div.product form.cart table tbody tr td{
+	vertical-align: unset !important;
+}
+/*.postid-3088 .summary   .variations select {
+	max-width: 100% !important; 
+	min-width: 10% !important;
+	display: inline-block;
+	margin-right: 1em;
+}*/
+.postid-3088 .summary .reset_variations{
+	visibility: visible;
+	display: inline;
+	position: absolute;
+	bottom: 15px;
+	right: -35px;
+}
+.postid-3088 .summary table td:first-child{
+	width: 110px;
+}
+.postid-3088 .summary .thwepo-extra-options td{
+	border: none !important;
+}
+.postid-3088 .summary form.cart table tbody tr td{
+	vertical-align: unset;
+}
+.postid-3088 .label-tag{
+	color: #000;
+	font-size: 13px;
+}
+.postid-3088 .woocommerce-variation.single_variation{
+	display: inline-block;
+}
+.postid-3088  #cidi_bike_val{
+	width: 100%;
+	border: 1px solid #c4d6f3;
+	border-radius: 3px;
+	color: #06f;
+	font-weight: 600;
+	padding: 5px 10px;
+	margin-left: 55px;
+}
+.postid-3088 div.product form.cart .variations{
+	margin-bottom: 0 !important;
+}
+.postid-3088 .woocommerce-variation.single_variation{
+	margin-bottom: 10px !important;
+}
+h3.cidi-icon-box-title{
+	display: inline-block;
+	text-align: center;
+}
+h3.cidi-icon-box-title a{
+	font-size: 13px;
+	color: #0066ff;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Roboto", Sans-serif;
+}
+h3.cidi-icon-box-title a i{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #0066ff;
+	color: #0066ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 35px;
+	margin: 0 auto 4px;
+}
+.woocommerce-MyAccount-content legend{
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation{
+	width: 20%;
+}
+.woocommerce-account .woocommerce-MyAccount-content{
+	width: 80%;
+}
+.heading-text,.wc-bacs-bank-details-heading,.woocommerce-order-details__title,.woocommerce-column__title {
+	font-size: 30px;
+	font-weight: 600;
+	margin: 15px 0;
+}
+.heateorSssSharingRound i {
+	width: 40px !important;
+	height: 40px !important;
+}
+.woocommerce-table--order-details.shop_table.order_details th {
+	background-color: #0066ff !important;
+	color: white !important;
+	text-align: left;
+}
+.woocommerce-product-details__short-description p,
+.woocommerce-product-details__short-description li {
+	font-family: "Montserrat", sans-serif;
+}
+/* Media Query */
+@media (min-width: 300px) and (max-width: 760px){
+	.tophead{
+		background-color: #ebebeb;
+		background-image: none !important;
+		padding: 100px 0px 40px 0px !important;
+		text-align: center;
+	}
+	.tophead h2{
+		font-size: 38px;
+	}
+	.tophead .elementor-button-info {
+		bottom: -48px !important;
+		right: -11px !important;
+	}
+}
+
+@media (max-width: 768px){
+	.woocommerce-account .woocommerce-MyAccount-content{
+		width: 100%;
+	}
+}
+
+@media (max-width: 575px){
+	.theme-tabs>li.active>a, .theme-tabs>li.active>a:focus, .theme-tabs>li.active>a:hover{
+		margin-right: 0;
+	}
+	.nav-tabs>li{
+		display: block;
+		float: inherit;
+		border-bottom: 1px solid #0066ff;
+		text-align: center;
+	}
+	.news_feed_list{
+		width: 100%;
+	}
+	.theme-tabs {
+		border: 1px solid #0066ff;
+	}
+	.woocommerce-account .woocommerce-MyAccount-navigation {
+		width: 100%;
+	}
+}

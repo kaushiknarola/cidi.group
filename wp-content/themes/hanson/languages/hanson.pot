@@ -1,0 +1,1795 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hanson\n"
+"POT-Creation-Date: 2018-08-08 17:26+0600\n"
+"PO-Revision-Date: 2018-08-08 17:25+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:16
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:19
+msgid "Go Home"
+msgstr ""
+
+#: archive.php:20 index.php:20 search.php:32 single.php:18
+msgid "&nbsp;"
+msgstr ""
+
+#: comments.php:20
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:29 comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:32 comments.php:53
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: fullwidthpage-template.php:17 homepage-template.php:15
+msgid "Not found"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334 inc/hanson_add_plugin.php:105
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335 inc/hanson_add_plugin.php:106
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337 inc/hanson_add_plugin.php:107
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339 inc/hanson_add_plugin.php:108
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340 inc/hanson_add_plugin.php:109
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:343 inc/hanson_add_plugin.php:112
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:349 inc/hanson_add_plugin.php:117
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:355 inc/hanson_add_plugin.php:122
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:361 inc/hanson_add_plugin.php:127
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:367 inc/hanson_add_plugin.php:132
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:373 inc/hanson_add_plugin.php:137
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:378 inc/hanson_add_plugin.php:142
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:383 inc/hanson_add_plugin.php:147
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:388 inc/hanson_add_plugin.php:152
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:392 inc/hanson_add_plugin.php:156
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:923
+#: inc/class-tgm-plugin-activation.php:2647
+#: inc/class-tgm-plugin-activation.php:3696
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3275 inc/hanson_add_plugin.php:157
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3068 inc/hanson_add_plugin.php:158
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397 inc/hanson_add_plugin.php:159
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399 inc/hanson_add_plugin.php:160
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401 inc/hanson_add_plugin.php:161
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402 inc/hanson_add_plugin.php:162
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403 inc/hanson_add_plugin.php:163
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404 inc/hanson_add_plugin.php:164
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:728
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1030
+#: inc/class-tgm-plugin-activation.php:1033
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1033
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1217
+#: inc/class-tgm-plugin-activation.php:3064
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2387
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2390
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2409
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2429
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2433
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2435
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2441
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2444
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2447
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2456
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2502
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2506
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2510
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2514
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2596
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2604
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2612
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2624
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2647
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2661
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2662
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2663
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2667
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2668
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2717
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2722
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2728
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2833
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2839
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2873
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2875
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2916
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2918
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3024
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3050
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3274
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3614
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3617
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3619
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3623
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3625
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3625
+#: inc/class-tgm-plugin-activation.php:3633
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3625
+#: inc/class-tgm-plugin-activation.php:3633
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3626
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3628
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3631
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3633
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3634
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3636
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer/blog_page_settings.php:3
+msgid "Default Banner"
+msgstr ""
+
+#: inc/customizer/blog_page_settings.php:17
+msgid "Upload an image"
+msgstr ""
+
+#: inc/customizer/blog_page_settings.php:31
+msgid "Overley Color"
+msgstr ""
+
+#: inc/customizer/color_settings.php:10
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color_settings.php:23
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:3
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:7
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:20
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:35
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:50
+msgid "Footer Widget Text Color"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:57
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:62
+msgid "Copyright Hanson WordPress Theme - by iThemesLab"
+msgstr ""
+
+#: inc/customizer/footer_settings.php:72
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/general_settings.php:3
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/header_settings.php:3
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/header_settings.php:7
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/customizer/header_settings.php:22
+msgid "Upload a logo"
+msgstr ""
+
+#: inc/customizer/preloader_settings.php:3
+msgid "Preloader Settings"
+msgstr ""
+
+#: inc/customizer/preloader_settings.php:15
+msgid "Choose preloader style"
+msgstr ""
+
+#: inc/customizer/preloader_settings.php:18
+msgid "None"
+msgstr ""
+
+#: inc/customizer/preloader_settings.php:19
+msgid "Circle Preloader"
+msgstr ""
+
+#: inc/customizer/preloader_settings.php:20
+msgid "Bar Preloader"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:3
+msgid "Top Header Settings"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:8
+msgid "Enable / Disable"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:22
+msgid "Enable Top Header"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:23
+msgid "Check this box to show top header section"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:31
+msgid "Contact Section"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:46
+msgid "Contact Number"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:64
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:74
+msgid "Social Section"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:89
+msgid "Social Text"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:108
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:126
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:144
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:162
+msgid "Linked In"
+msgstr ""
+
+#: inc/customizer/top_header_settings.php:180
+msgid "Pinterest"
+msgstr ""
+
+#: inc/demo-import.php:11
+msgid "Please keep patients while importing sample data."
+msgstr ""
+
+#: inc/hanson_add_plugin.php:11
+msgid "Elementor"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:18
+msgid "CMB2"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:25
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:32
+msgid "Hanson Core"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:40
+msgid "WP Instagram Widget"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:47
+msgid "Mail Chimp for WP"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:54
+msgid "WP Mega Menu"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:61
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:68
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:75
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/hanson_add_plugin.php:82
+msgid "Slider Revolution"
+msgstr ""
+
+#: inc/main/breadcrumbs.php:5 layouts/hanson-banner.php:38
+msgid "Home"
+msgstr ""
+
+#: inc/main/breadcrumbs.php:6
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/main/breadcrumbs.php:7
+#, php-format
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: inc/main/breadcrumbs.php:8
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/main/breadcrumbs.php:9
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/main/breadcrumbs.php:10
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/main/breadcrumbs.php:11
+msgid "Error 404"
+msgstr ""
+
+#: inc/main/breadcrumbs.php:131
+msgid "Page"
+msgstr ""
+
+#: inc/main/hanson-functions.php:8
+msgid "Type and Hit Enter"
+msgstr ""
+
+#: inc/main/hanson-functions.php:18
+msgid "Read more..."
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/main/hanson-functions.php:35
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/main/reg-widget.php:7
+msgid "Right Sidebar Area"
+msgstr ""
+
+#: inc/main/reg-widget.php:9 inc/main/reg-widget.php:18
+#: inc/main/reg-widget.php:27 inc/main/reg-widget.php:36
+#: inc/main/reg-widget.php:45 inc/main/reg-widget.php:54
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/main/reg-widget.php:16
+msgid "WooCommerce Sidebar Area"
+msgstr ""
+
+#: inc/main/reg-widget.php:25
+msgid "Footer - 1 Widget Area"
+msgstr ""
+
+#: inc/main/reg-widget.php:34
+msgid "Footer - 2 Widget Area"
+msgstr ""
+
+#: inc/main/reg-widget.php:43
+msgid "Footer - 3 Widget Area"
+msgstr ""
+
+#: inc/main/reg-widget.php:52
+msgid "Footer - 4 Widget Area"
+msgstr ""
+
+#: inc/main/theme-setup.php:39
+msgid "Primary"
+msgstr ""
+
+#: inc/ocdi/inc/CustomizerImporter.php:37
+#: inc/ocdi/inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr ""
+
+#: inc/ocdi/inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: inc/ocdi/inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/ocdi/inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: inc/ocdi/inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/ocdi/inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/ocdi/inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:197 inc/ocdi/inc/Helpers.php:240
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:274
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:297
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:308 inc/ocdi/inc/OneClickDemoImport.php:137
+#: inc/ocdi/views/plugin-page.php:21
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:309 inc/ocdi/inc/OneClickDemoImport.php:138
+#: inc/ocdi/views/plugin-page.php:120 inc/ocdi/views/plugin-page.php:132
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:321
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:329
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:369
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:403
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:449
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:453 inc/ocdi/inc/Helpers.php:470
+#: inc/ocdi/inc/Helpers.php:487 inc/ocdi/inc/Helpers.php:498
+#: inc/ocdi/inc/Helpers.php:518 inc/ocdi/inc/Helpers.php:526
+msgid "Upload files"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:466
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:483
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:496
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:514
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:524
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:550
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:554
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+
+#: inc/ocdi/inc/Helpers.php:557 inc/ocdi/inc/Helpers.php:558
+#: inc/ocdi/inc/Helpers.php:559 inc/ocdi/inc/Helpers.php:560
+msgid "not defined!"
+msgstr ""
+
+#: inc/ocdi/inc/Importer.php:172
+msgid "New AJAX call!"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:190
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:191
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:192
+msgid "Cancel"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:193
+msgid "Yes, import!"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:194
+msgid "Selected demo import:"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:241
+msgid "Manually uploaded files"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:254
+#: inc/ocdi/inc/OneClickDemoImport.php:265
+msgid "Downloaded files"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:261
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:270
+msgid "No import files specified!"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:391
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks "
+"@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:394
+#, php-format
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:407
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because it "
+"has done its job.%5$s"
+msgstr ""
+
+#: inc/ocdi/inc/OneClickDemoImport.php:418
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: inc/ocdi/inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr ""
+
+#: inc/ocdi/inc/ReduxImporter.php:32 inc/ocdi/inc/ReduxImporter.php:53
+#: inc/ocdi/inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr ""
+
+#: inc/ocdi/inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr ""
+
+#: inc/ocdi/inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:153
+msgid "Importing..."
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+
+#: inc/ocdi/inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:40 inc/ocdi/inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:269
+msgid "Imported"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:273
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:279
+msgid "No Title"
+msgstr ""
+
+#: inc/ocdi/inc/WidgetImporter.php:326
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/ocdi/one-click-demo-import.php:44
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:131
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:167
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:283
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:356
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:506
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:566
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:667
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:755
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:765
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:843
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:857
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:889
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1772
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:894
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:934
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1075
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1558
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1579
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1583
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1733
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1777
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1835
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1844
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1917
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1923
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1948
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1961
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1966
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1980
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1985
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2011
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2022
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2067
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2072
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2094
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2098
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2112
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2116
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2133
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2162
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2172
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2183
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2191
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2205
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2224
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2234
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2269
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: inc/ocdi/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2278
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:31
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:44
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:49
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:50
+msgid ""
+"It will allow you to quickly edit everything instead of creating content "
+"from scratch."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:55
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:58
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:59
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:60
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple "
+"of minutes."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:65
+msgid "Switch to manual import!"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:67
+msgid "Switch back to theme predefined imports!"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:83
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:90
+msgid "Manual demo files upload"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:93
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:98
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:103
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:109
+msgid "Choose a JSON file for Redux import:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:112
+msgid "Enter the Redux option name:"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:147
+msgid "All"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:154
+msgid "Search demos..."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:175
+msgid "No preview image."
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:180
+msgid "Import"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:182
+msgid "Preview"
+msgstr ""
+
+#: inc/ocdi/views/plugin-page.php:195
+msgid "Importing, please wait!"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:10 inc/template-tags.php:21 inc/template-tags.php:23
+#: inc/template-tags.php:73 inc/template-tags.php:79
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:50
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:55
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:75
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:81
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:88
+#, php-format
+msgid "Leave a Comment <span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:95 template-parts/content-page.php:30
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/wp_bootstrap_navwalker.php:197
+msgid "Main Menu"
+msgstr ""
+
+#: layouts/hanson-banner.php:11 layouts/hanson-banner.php:33
+#: layouts/hanson-banner.php:40
+msgid "blog"
+msgstr ""
+
+#: layouts/hanson-banner.php:55
+msgid "Search"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-project.php:39
+#: template-parts/content.php:43
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-project.php:20
+msgid "Client name:"
+msgstr ""
+
+#: template-parts/content-project.php:21
+msgid "Location:"
+msgstr ""
+
+#: template-parts/content-project.php:22
+msgid "Project started on: "
+msgstr ""
+
+#: template-parts/content-project.php:23
+msgid "Project completed on: "
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content-project.php:34 template-parts/content.php:38
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:39
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/loop/pagination.php:40
+msgid "Next"
+msgstr ""
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:31
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hanson"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://tfdemo.ithemeslab.com/wp/hanson/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hanson is a fresh, clean & feature rich multipurpose WordPress theme. Highly "
+"recommended for any kind of agency / organizational website. hansonBiz comes "
+"with popular drag n drop page builder with front end editing, so no coding "
+"skill required. The layout looks beautiful at any size, be it a laptop "
+"screen, iPad, iPhone, Android Mobile or tablets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemesLab"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ithemeslab.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Page Template"
+msgstr ""

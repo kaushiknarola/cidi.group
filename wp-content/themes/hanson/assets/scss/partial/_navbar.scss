@@ -1,0 +1,397 @@
+.nav {
+    .open {
+        > a {
+            background: transparent;
+            &:hover,
+            &:focus {
+                background: transparent;
+            }
+        }
+    }
+}
+.navbar-header {
+    .navbar-brand {
+        line-height: 70px;
+        @include transition(all, 0.3s);
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    &.navbar-default {
+        border: 0;
+        background-color: transparent;
+        .navbar-nav {
+            > li {
+                > a {
+                    color: $navbar-link-color;
+                    line-height: 80px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 600;
+                    font-family: $text-font-family;
+                    //@include transition(all, 0.8s);
+                    &:hover {
+                        color: $navbar-hover-color;
+                        background: $navbar-hover-bg;
+                    }
+                    .caret {
+                        display: none;
+                    }
+                }
+                &.current-menu-item,
+                &.current-menu-parent {
+                    > a {
+                        color: $navbar-active-color;
+                        background: $navbar-active-bg;
+                    }
+                }
+            }
+            > .open {
+                > a {
+                    color: $navbar-hover-color;
+                    background: transparent;
+                }
+            }
+            .dropdown {
+                > a {
+                    &:after {
+                        content: '\f107';
+                        font-family: $fontawesome;
+                        display: inline-block;
+                        margin-left: 5px;
+                        line-height: 20px;
+                    }
+                }
+                .dropdown-menu {
+                    background: $dropdown-wrap-color;
+                    border:0;
+                    padding: 0;
+                    z-index: 9999;
+                    border-radius: 0;
+                    border-top: 2px solid $brand-primary;
+                    > .dropdown {
+                        > a {
+                            &:after {
+                                content: '\f105';
+                                float: right;
+                                display: none;
+                            }
+                        }
+                    }
+                    > li {
+                        border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+                        > a {
+                            color: $dropdown-link-color;
+                            font-size: 13px;
+                            padding: 10px 20px;
+                            text-transform: uppercase;
+                            &:hover {
+                                color: $dropdown-hover-color;
+                                background: $dropdown-hover-bg;
+                            }
+                        }
+                        &.active {
+                            > a {
+                                color: $dropdown-hover-color;
+                                background: $dropdown-hover-bg;
+                            }
+                        }
+                        &:last-child {
+                            border-bottom: 0;
+                        }
+                        &.open {
+                            .dropdown-menu {
+                                left: 100%;
+                                top: -4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-toggle {
+            background: $navbar-toggle-bg;
+            border: 0;
+            margin-top: 16px;
+            .icon-bar {
+                background: $navbar-toggle-line-color;
+            }
+            &:hover {
+            }
+        }
+    }
+}
+.navbar-fixed-top {
+    @include transition(all, 0.8s);
+    .navbar-header {
+        .navbar-brand {
+            padding: 0 15px;
+            line-height: 60px;
+        }
+    }
+    .navbar {
+        margin-bottom: 0;
+        &.navbar-default {
+            border: 0;
+            background-color: transparent;
+            .navbar-nav {
+                > li {
+                    > a {
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 2.2 navbar on lg screen */
+@media screen and (min-width: 768px) {
+    .navbar {
+        &.navbar-default {
+            .navbar-nav {
+                float: right;
+                > li {
+                    &:after {
+                        height: 2px;
+                    }
+                }
+                .active {
+                    &:after {
+                        height: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 2.3 navbar on sm & xs screen */
+@media screen and (max-width: $screen-sm-max) {
+    .navbar {
+        margin-bottom: 0;
+        &.navbar-default {
+            .navbar-toggle {
+                float: left;
+                margin-left: 15px;
+            }
+            .navbar-brand {
+                padding: 0 15px;
+                display: none;
+            }
+            .navbar-collapse {
+                border: 0;
+                box-shadow: none;
+                &.collapse {
+                    padding-left: 0;
+                    margin-left: 0;
+                }
+            }
+            .navbar-nav {
+                padding-right: 0;
+                margin: 7.5px 0;
+                background: $dropdown-wrap-color;
+                > li {
+                    border-bottom: 1px solid #555;
+                    > a {
+                        color: $white;
+                        line-height: 30px;
+                        margin-left: 20px;
+                    }
+                    &:after {
+                        height: 0px;
+                    }
+                    .active {
+                        &:after {
+                            height: 0;
+                        }
+                    }
+                }
+                .active {
+                    > a {
+                        color: $dropdown-hover-color;
+                        background: $dropdown-hover-bg;
+                    }
+                }
+                .dropdown {
+                    > a {
+                        &:after {
+                            content: '\f107';
+                            font-family: $fontawesome;
+                            display: inline-block;
+                            margin-left: 5px;
+                        }
+
+                    }
+                    .dropdown-menu {
+
+                        > li {
+                            border-bottom: 0;
+                            > a {
+                                padding: 5px 0;
+                                margin: 0 60px;
+                                border-bottom: 1px solid #555;
+                            }
+                            &:last-child {
+                                > a {
+                                    border-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.wp-megamenu-wrap {
+    .wpmm-nav-wrap {
+        > ul {
+            &.wp-megamenu {
+                > li {
+                    //dropdown menu start
+                    &.wpmm_dropdown_menu {
+                        ul {
+                            &.wp-megamenu-sub-menu {
+                                padding: 0;
+                                border-top: 2px solid $brand-primary;
+                                box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                                webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                                li {
+                                    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+                                    a {
+                                        &:hover {
+                                            padding-left: 5px;
+                                        }
+                                    }
+                                    &:last-child {
+                                        border-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    //dropdown menu end
+                    //megamenu start
+                    &.wpmm_mega_menu {
+                        > ul {
+                            &.wp-megamenu-sub-menu {
+                                li {
+                                    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+                                    &:last-child {
+                                        border-bottom: 0;
+                                    }
+                                    a {
+                                        &:hover {
+                                            padding-left: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    > ul {
+                        &.wp-megamenu-sub-menu {
+                            border-top: 2px solid $brand-primary !important;
+                            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                            webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                        }
+                    }
+                    //megamenu end
+                }
+            }
+        }
+        //megamenu widget title start
+        .wp-megamenu {
+            > li {
+                > ul {
+                    &.wp-megamenu-sub-menu {
+                        li {
+                            &.wpmm-type-widget {
+                                > a {
+                                    border-bottom: 1px solid $brand-primary !important;
+                                    &:hover {
+                                        padding-left: 0 !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //megamenu widget title end
+        ul {
+            &.wp-megamenu {
+                > li {
+                    ul {
+                        &.wp-megamenu-sub-menu {
+                            li {
+                                a {
+                                    padding: 10px 0;
+                                    &:hover {
+                                        color: $brand-primary;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//megamenu parent item style start
+@media screen and (min-width: 767px) {
+    .wp-megamenu-wrap {
+        .wpmm-nav-wrap {
+            .wpmm_brand_logo_wrap {
+                img {
+                    margin-top: 38px;
+                }
+            }
+            ul {
+                &.wp-megamenu {
+                    > li {
+                        &.current-menu-item {
+                            > a {
+                                //nothing
+                            }
+                        }
+                        > a {
+                            line-height: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//megamenu parent item style start
+
+@media screen and (max-width: 767px) {
+    .wp-megamenu-wrap {
+        .wpmm-nav-wrap {
+            .wpmm_brand_logo_wrap {
+                img {
+                    margin-top: 20px;
+                }
+            }
+        }
+        //mobile menu start
+        &.wpmm-mobile-menu {
+            .wpmm-nav-wrap {
+                .wp-megamenu {
+                    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                    webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                }
+            }
+            ul {
+                &.wp-megamenu {
+                    li {
+                        border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+                    }
+                }
+            }
+        }
+        //mobile menu end
+    }
+}

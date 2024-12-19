@@ -1,0 +1,52 @@
+//vc-accordion
+.vc_tta-color-white {
+    &.vc_tta-style-outline {
+        .vc_tta-panel {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            .vc_tta-panel-heading {
+                border: 0;
+                .vc_tta-panel-title {
+                    a {
+                        font-size: 13px;
+                        line-height: 13px;
+                        color: $headings-color;
+                    }
+                }
+            }
+            &.vc_active {
+                .vc_tta-panel-heading {
+                    background: $brand-primary !important;
+                    border: 0;
+                    .vc_tta-panel-title {
+                        a {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .vc_tta-panel-body::before {
+                border-color: $headings-color !important;
+            }
+        }
+    }
+}
+.vc_tta.vc_tta-style-outline .vc_tta-panel.vc_active+.vc_tta-panel .vc_tta-panel-heading,
+.vc_tta.vc_tta-style-outline .vc_tta-panel:not(:first-child) .vc_tta-panel-heading {
+    margin-top: 0 !important;
+}
+.vc_tta.vc_tta-style-outline .vc_tta-panel.vc_active .vc_tta-panel-heading,
+.vc_tta.vc_tta-style-outline .vc_tta-panel:not(:last-child) .vc_tta-panel-heading {
+    margin-bottom: 0 !important;
+}
+.vc_tta-color-white.vc_tta-style-outline .vc_tta-controls-icon::after,
+.vc_tta-color-white.vc_tta-style-outline .vc_tta-controls-icon::before,
+.vc_tta-color-white.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-body::after,
+.vc_tta-color-white.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-body::before {
+    border-color: $headings-color !important;
+}
+.wpb_gmaps_widget {
+    .wpb_wrapper {
+        padding: 0 !important;
+    }
+}

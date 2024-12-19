@@ -1,0 +1,68 @@
+/*colors*/
+/*grid float point*/
+/*font-family*/
+/*font-size*/
+/*line-height*/
+/*main-menu*/
+/*blogposts*/
+/*widgets*/
+/*footer*/
+@media screen and (max-width: 768px) {
+  .page-head {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .page-head .breadcrumbs {
+    text-align: center;
+  }
+  .sm-logo {
+	  display:none;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .comments-area ol {
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .portfolio-column-5,
+  .post-grid-column-5,
+  .portfolio-column-4,
+  .post-grid-column-4,
+  .portfolio-column-3,
+  .post-grid-column-3,
+  .portfolio-column-2,
+  .post-grid-column-2 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .portfolio-column-5,
+  .post-grid-column-5,
+  .portfolio-column-4,
+  .post-grid-column-4,
+  .portfolio-column-3,
+  .post-grid-column-3,
+  .portfolio-column-2,
+  .post-grid-column-2 {
+    width: 100%;
+  }
+  .itl-portfolio-nav ul li {
+    font-size: 12px;
+    padding: 4px 6px;
+    line-height: 12px;
+  }
+  .footer .col-xs-12 {
+    clear: both;
+    margin-bottom: 15px;
+  }
+  .btn.btn-slideshow {
+    padding: 16px 34px;
+    font-size: 16px;
+  }
+  .btn.btn-slideshow-alt {
+    font-size: 16px;
+    padding: 16px 34px;
+  }
+}

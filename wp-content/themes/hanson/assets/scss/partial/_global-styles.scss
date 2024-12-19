@@ -1,0 +1,215 @@
+body {
+    font-family: $text-font-family;
+    font-size: $global-body-font-size;
+    color: $text-color;
+    line-height: $global-line-height;
+}
+
+a {
+    @include transition(all, 0.3s);
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        outline: none;
+    }
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $headings-color;
+    font-family: $headings-font-family;
+    margin-top: 0;
+    font-weight: 400;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    &.alignnone {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    &.aligncenter {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &.alignleft {
+        margin-right: 20px;
+        float: left;
+        &:after {
+            clear: both;
+        }
+    }
+    &.alignright {
+        float: right;
+        margin-left: 10px;
+    }
+    &.size-full {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.page {
+    img {
+        &.alignleft {
+            float: none;
+            margin-bottom: 10px;
+        }
+    }
+}
+.dib {
+    display: inline-block;
+}
+.header {
+    background: $white;
+    border-bottom: 1px solid #dddddd;
+    z-index: 999999;
+    @include transition(all,0.3s);
+}
+.content-pad {
+    padding: 60px 0;
+}
+.padtop60 {
+    padding-top: 60px;
+}
+.pad60 {
+    padding: 60px 0;
+}
+.padbottom60 {
+    padding-bottom: 60px;
+}
+.pad80 {
+    padding: 80px 0;
+}
+.padtop80 {
+    padding-top: 80px;
+}
+.padbottom80 {
+    padding-bottom: 80px;
+}
+.pad100 {
+    padding: 100px 0;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    th {
+        color: $black;
+        background: $brand-primary;
+        padding: 8px;
+        vertical-align: top;
+        text-align: center;
+        line-height: 18px;
+    }
+    td {
+        padding: 8px;
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        vertical-align: top;
+        text-align: left;
+        line-height: 18px;
+        a {
+            color: $black;
+            &:hover {
+                color: $brand-primary;
+            }
+        }
+    }
+}
+blockquote {
+    border-color: $brand-primary;
+    background: #fafafa;
+}
+.parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.parallax-banner {
+    background-color: $banner-bg;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-attachment: fixed;
+    background-position: center top;
+}
+.parallax-banner-cmb2 {
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-attachment: fixed;
+    background-position: center top;
+}
+/*Button Styles*/
+.btn {
+    border-radius: 0;
+    padding: 10px 24px;
+    border: 0;
+    font-size: 13px;
+    transition: all 0.3s;
+    &.btn-primary,
+    &.btn-default {
+        color: $white;
+        background: $brand-primary;
+        &.hvr-sweep-to-right:before {
+            background: $black;
+        }
+    }
+    &.btn-success,
+    &.btn-info,
+    &.btn-warning,
+    &.btn-danger {
+        &.hvr-sweep-to-right:before {
+            background: $black;
+        }
+    }
+    &.btn-link {}
+    &.btn-slideshow {
+        padding: 16px 34px;
+        color: $white;
+        background: $brand-primary;
+        transition: all 0.3s !important;
+        &:hover {
+            background: $headings-color;
+        }
+    }
+    &.btn-slideshow-alt {
+        color: $brand-primary;
+        padding: 16px 34px;
+        background: $white;
+        transition: all 0.3s !important;
+        &:hover {
+            color: $white;
+            background: $brand-primary;
+        }
+    }
+}
+.fa-ul {
+    li {
+        padding: 5px 0;
+        i {
+            color: $brand-primary;
+            font-size: 15px;
+            padding: 7px 0;
+        }
+    }
+}
+.footer {
+    background: $footer-bg;
+    color: $fw-text-color;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.copyright {
+    color: $fw-text-color;
+    background: #222;
+    border-top: 1px solid #333333;
+    padding: 17px 0 10px;
+    text-align: center;
+    a {
+        color: $fw-text-color;
+        &:hover {
+            color: $brand-primary;
+        }
+    }
+}
